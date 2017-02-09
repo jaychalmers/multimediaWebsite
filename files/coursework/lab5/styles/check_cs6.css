@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 968px;
+	background: #FFF;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+#main_image {
+	background-image: url(file://///smbhome.uscs.susx.ac.uk/jc570/Documents/Year%201/Introduction%20to%20Multimedia/Labs/Lab%205/check_cs6/images/main.jpg);
+	background-repeat: no-repeat;
+	height: 376px;
+	width: 968px;
+	position: relative;
+}
+
+#header {
+	color: #FFF;
+	background-color: #000;
+	height: 100px;
+	position: relative;
+}
+
+#main_text {
+	background-color: #FFF;
+	background: rgba(255,255,255,0.8);
+	width: 300px;
+	position: absolute;
+	right: 60px;
+	bottom: 60px;
+	padding: 12px;
+	border-radius: 10px;
+}
+
+#main_text h3 {
+	font-size: 16px;
+	margin: 0px;
+}
+
+#main_text h2 {
+	color: #01AEF0;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#main_text p {
+	font-size: 14px;
+	line-height: 1.2;
+	margin: 0px;
+}
+
+
+
+
+
+
+#left_column, #center_column, #right_column {
+	width: 316px;
+	float: left;
+}
+
+#center_column, #right_column {
+	margin-left: 10px;	
+}
+
+h1 {
+	font-family: sarina, cursive;
+	font-size: 96px;
+	margin: 0;
+	float: left;
+}
+#header a {
+	font-size: 20px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 100px;
+}
+#header ul li {
+	float: left;
+}
+
+#header ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #3B3B3B;
+	background-color: #FFF;
+	margin: 0px;
+}
+#header p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 30px;
+	font-variant: small-caps;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+}

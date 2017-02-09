@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+#all {
+	background-color: #0d0d0c;
+}
+
+#container {
+	width: 1024px;
+	margin: 0 auto;
+	border: 1px solid #353531;
+	padding: 0px;		
+}
+
+#header {
+	background-color: white;
+	height: 56px;
+	margin: 0px;
+	padding: 32px;
+	line-height: 56px;
+}
+
+#header h1 {
+	float: left;
+	margin: 0px;
+	font-family: bebas-neue, helvetica, sans-serif;	
+}
+
+#header h2 {
+	margin: 0px;
+}
+
+#header a {
+	font-family: bebas-neue, helvetica, sans-serif;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	display: block;
+}
+
+#header ul li{
+	float: left;
+	margin: 0 8px;
+}
+
+#header ul{
+	height: auto;
+	float: right;
+	margin: 0px;
+	list-style-type: none;
+}
+
+#main_section_index {
+	width: 904px;
+	height: 648px;
+	margin: 0px;
+	padding: 60px;
+	border: 0px;
+		
+	background-image: url("images/indexbg.jpg");
+}
+
+#main_section_cv {
+	width: 904px;
+	height: 648px;
+	margin: 0px;
+	padding: 60px;
+	border: 0px;
+		
+	background-image: url("images/cvbg.jpg");
+}
+
+#main_section_video {
+	width: 904px;
+	height: 648px;
+	margin: 0px;
+	padding: 60px;
+	border: 0px;
+		
+	background-image: url("images/videobg.jpg");
+}
+
+#main_section_hobbies {
+	width: 904px;
+	height: 748px;
+	margin: 0px;
+	padding: 60px;
+	border: 0px;
+		
+	background-image: url("images/hobbiesbg.jpg");
+}
+
+#main_section_coursework {
+	width: 904px;
+	height: 1571px;
+	margin: 0px;
+	padding: 60px;
+	border: 0px;
+		
+	background-image: url("images/courseworkbg.jpg");
+}
+
+#main_section_animation {
+	width: 904px;
+	height: 648px;
+	margin: 0px;
+	padding: 60px;
+	border: 0px;
+		
+	background-image: url("images/animationbg.jpg");
+}
+
+#main_content {
+	font-family: helvetica, sans-serif;
+	background: rgba(255,255,255,0.9);
+	margin: 0 auto;
+	padding: 32px;
+	width: 600px;
+	border: 1px solid grey;
+}
+
+#main_content ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main_content li {
+	margin: 8px 0;
+}
+
+#footer {
+	margin: 0px;
+	padding: 0px 16px 0px 16px;
+	height: 40px;
+	line-height: 40px;
+	background-color: black;
+	color: #4d4d4d;
+	font-size: large;
+	font-family: bebas-neue, helvetica, sans-serif;	
+}
+
+#style_buttons {
+	float: right;
+}
